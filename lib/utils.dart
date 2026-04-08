@@ -1,8 +1,9 @@
-import 'package:myapp/src/utils/logger.dart';
+import 'package:test_module/src/utils/logger.dart';
 
 /// Utility class containing common helper methods for data manipulation,
 /// string operations, and list processing
 class Utils {
+  static const String parameterName = 'Parameter Value';
   // Private constructor to prevent instantiation
   Utils._();
 
